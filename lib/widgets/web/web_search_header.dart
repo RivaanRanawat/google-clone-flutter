@@ -3,6 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_clone/colors.dart';
 import 'package:google_clone/screens/search_screen.dart';
 
+
 class WebSearchHeader extends StatelessWidget {
   const WebSearchHeader({Key? key}) : super(key: key);
 
@@ -16,17 +17,10 @@ class WebSearchHeader extends StatelessWidget {
         children: [
           Padding(
             padding: const EdgeInsets.only(left: 28.0, right: 15, top: 4),
-            child: InkWell(
-              splashColor: Colors.transparent,
-              hoverColor: Colors.transparent,
-              onTap: () {
-                Navigator.pushNamed(context, '/');
-              },
-              child: Image.asset(
-                'assets/images/google-logo.png',
-                height: 30,
-                width: 92,
-              ),
+            child: Image.asset(
+              'assets/images/google-logo.png',
+              height: 30,
+              width: 92,
             ),
           ),
           const SizedBox(width: 27),

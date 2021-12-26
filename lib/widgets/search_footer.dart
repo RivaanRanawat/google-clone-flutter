@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_clone/colors.dart';
 
+// footer to show when the search results are showing
 class SearchFooter extends StatelessWidget {
   const SearchFooter({Key? key}) : super(key: key);
 
@@ -12,8 +13,11 @@ class SearchFooter extends StatelessWidget {
       children: [
         Container(
           color: footerColor,
-          padding: EdgeInsets.symmetric(horizontal: size.width<=768? 10 :  150, vertical: 15),
-          child: Row(
+          padding: EdgeInsets.symmetric(
+              horizontal: size.width <= 768 ? 10 : 150, vertical: 15),
+          child:
+              // first showing the location
+              Row(
             children: [
               Text(
                 'India',
@@ -50,9 +54,12 @@ class SearchFooter extends StatelessWidget {
           height: 0,
           color: Colors.black26,
         ),
+
+        // showing the help options
         Container(
           color: footerColor,
-          padding: EdgeInsets.symmetric(horizontal: size.width<=768? 20 :  50),
+          padding:
+              EdgeInsets.symmetric(horizontal: size.width <= 768 ? 20 : 50),
           child: Row(
             children: [
               Text(

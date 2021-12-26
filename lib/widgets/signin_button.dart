@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+// sign in button showing up in both the screens- search and main
 class SigninButton extends StatelessWidget {
   const SigninButton({Key? key}) : super(key: key);
 

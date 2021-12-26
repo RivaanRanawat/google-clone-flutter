@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_clone/colors.dart';
 import 'package:google_clone/widgets/footer_text.dart';
 
+// showing the footer on main screen
 class WebFooter extends StatelessWidget {
   const WebFooter({Key? key}) : super(key: key);
 

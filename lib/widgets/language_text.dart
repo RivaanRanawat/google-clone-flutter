@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_clone/colors.dart';
 
+// text to show the translation buttons like hindi etc etc
 class LanguageText extends StatelessWidget {
   final String title;
   const LanguageText({
